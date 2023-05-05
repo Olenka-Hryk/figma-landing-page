@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-menu {
+    background-image: url("image/main-background-foto.png");
+    min-height: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 20px
+    width: auto;
+}
