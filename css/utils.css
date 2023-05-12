@@ -1,0 +1,19 @@
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-lg-block {
+    @media (min-width: 990px) {
+        display: block;
+    }
+}
+
+.d-lg-none {
+    @media (min-width: 990px) {
+        display: none;
+    }
+}

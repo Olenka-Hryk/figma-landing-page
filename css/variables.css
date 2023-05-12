@@ -1,0 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/graphik');
+
+:root {
+    --font-text: 'Graphik';
+
+    --background-main-color: #FFFFFF;
+    --text-primary-title-color: #FFFFFF;
+    --text-primary-subtitle-color: #FFFFFF;
+    --text-secondary-title-color: #252B42;
+    --text-secondary-subtitle-color: #374754;
+
+    --font-size-nav-menu-item-text: 15px;
+    --font-size-main-title-text: 74px;
+    --font-size-section-title-text: 48px;
+    --font-size-subtitle-text: 28px;
+    --font-size-accent-text: 20px;
+    --font-size-text: 18px;
+    --font-weight-text: 400;
+    --font-weight-accent-text: 700;
+    --letter-spacing: 0.2px;
+
+    --btn-font-size-text: 20px;
+    --btn-border-radius: 35px;
+
+    --btn-primary-text-color: #FFFFFF;
+    --btn-primary-background-color: #2091F9;
+
+    --btn-secondary-text-color: #2091F9;
+    --btn-secondary-background-color: #FFFFFF;
+}

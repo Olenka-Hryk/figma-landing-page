@@ -1,0 +1,22 @@
+.social__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.social__item {
+    padding: 0 1rem;
+}
+
+.button-primary {
+    width: 236px;
+    height: 52px;
+    border-radius: var(--btn-border-radius);
+    background-color: var(--btn-primary-background-color);
+    color: var(--btn-primary-text-color);
+    text-decoration: none;
+    padding: 16px 62px 16px 62px;
+    display: inline-block;
+    cursor: pointer;
+}
