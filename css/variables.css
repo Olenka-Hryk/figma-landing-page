@@ -15,12 +15,22 @@
     --font-size-subtitle-text: 28px;
     --font-size-accent-text: 20px;
     --font-size-text: 18px;
+
     --font-weight-text: 400;
     --font-weight-accent-text: 700;
+
     --letter-spacing: 0.2px;
+    --letter-spacing-accent-text: 0.1px;
+
+    --line-height-main-title-text: 84px;
+    --line-height-title: 55px;
+    --line-height-subtitle: 40px;
+    --line-height-accent-text: 28px;
+    --line-height-text: 25px;
 
     --btn-font-size-text: 20px;
     --btn-border-radius: 35px;
+    --btn-line-height: 20px;
 
     --btn-primary-text-color: #FFFFFF;
     --btn-primary-background-color: #2091F9;

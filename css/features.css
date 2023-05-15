@@ -1,15 +1,11 @@
 .features__title {
     padding-top: 50px;
     padding-bottom: 27px;
-    color: var(--text-secondary-title-color);
-    font-size: var(--font-size-section-title-text);
     text-align: center;
 }
 
 .features__subtitle {
     padding: 0 1rem;
-    color: var(--text-secondary-subtitle-color);
-    font-size: var(--font-size-subtitle-text);
     text-align: center;
 }
 
@@ -33,13 +29,11 @@
 
 .feature__title {
     padding-top: 28px;
-    color: var(--text-secondary-title-color);
-    font-size: var(--font-size-subtitle-text);
 }
 
 .feature__subtitle {
-    color: var(--text-secondary-subtitle-color);
-    font-size: var(--font-size-text);
+    padding-top: 20px;
+    max-width: 255px;
 }
 
 @media (min-width: 990px) {

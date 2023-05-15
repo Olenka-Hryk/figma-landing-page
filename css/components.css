@@ -1,3 +1,39 @@
+.title {
+    color: var(--text-secondary-title-color);
+    font-size: var(--font-size-section-title-text);
+    font-weight: var(--font-weight-text);
+    line-height: var(--line-height-title);
+}
+
+.title--wht {
+    color: var(--text-primary-title-color);
+    font-size: var(--font-size-section-title-text);
+}
+
+.subtitle {
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--font-size-subtitle-text);
+    line-height: var(--line-height-subtitle);
+}
+
+.subtitle--wht {
+    color: var(--text-primary-subtitle-color);
+}
+
+.text-accent {
+    color: var(--text-secondary-title-color);
+    font-size: var(--font-size-accent-text);
+    font-weight: var(--font-weight-accent-text);
+    line-height: var(--line-height-accent-text);
+    letter-spacing: var(--letter-spacing-accent-text);
+}
+
+.text {
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--font-size-text);
+    line-height: var(--line-height-text);
+}
+
 .social__list {
     list-style-type: none;
     display: flex;
@@ -9,14 +45,42 @@
     padding: 0 1rem;
 }
 
-.button-primary {
+.btn {
     width: 236px;
     height: 52px;
     border-radius: var(--btn-border-radius);
-    background-color: var(--btn-primary-background-color);
-    color: var(--btn-primary-text-color);
     text-decoration: none;
     padding: 16px 62px 16px 62px;
     display: inline-block;
     cursor: pointer;
+    border-style: none;
+}
+
+.btn--primary {
+    background-color: var(--btn-primary-background-color);
+    color: var(--btn-primary-text-color);
+    font-size: var(--btn-font-size-text);
+    font-weight: var(--font-weight-text);
+    line-height: var(--btn-line-height);
+    letter-spacing: var(--letter-spacing);
+}
+
+.btn--primary-accent {
+    height: 59px;
+    padding: 16px 59px 16px 59px;
+    background-color: var(--btn-primary-background-color);
+    color: var(--btn-primary-text-color);
+    font-size: var(--btn-font-size-text);
+    font-weight: var(--font-weight-accent-text);
+    line-height: var(--line-height-accent-text);
+    letter-spacing: var(--letter-spacing-accent-text);
+}
+
+.btn--secondary {
+    background-color: var(--btn-secondary-background-color);
+    color: var(--btn-secondary-text-color);
+    font-size: var(--btn-font-size-text);
+    font-weight: var(--font-weight-text);
+    line-height: var(--btn-line-height);
+    letter-spacing: var(--letter-spacing);
 }

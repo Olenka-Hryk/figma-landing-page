@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("../image/main-background-img.svg");
+    background-image: url("../image/main-background-img.png");
     min-height: 927px;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -13,15 +13,10 @@
 
 .hero__title {
     padding-top: 172px;
-    color: var(--text-primary-title-color);
-    font-size: var(--font-size-section-title-text);
-    font-weight: var(--font-weight-text);
 }
 
 .hero__subtitle {
     padding: 27px 60px;
-    color: var(--text-primary-title-color);
-    font-size: var(--font-size-subtitle-text);
 }
 
 .hero__action {
@@ -32,5 +27,6 @@
     .hero__title {
         font-weight: var(--font-weight-accent-text);
         font-size: var(--font-size-main-title-text);
+        line-height: var(--line-height-main-title-text);
     }
 }
