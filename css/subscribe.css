@@ -29,7 +29,7 @@
 
 @media (min-width: 990px) {
     .subscribe {
-        padding-top: 43px;
+        padding-top: 0;
         padding-bottom: 43px;
         flex-direction: row;
         text-align: left;

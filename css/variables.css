@@ -42,4 +42,9 @@
     --form-input-color-border: #E8E8E8;
     --form-input-border-radius: 39px;
     --form-input-border-width: 1px;
+
+    --partners-border-color: #D8D8D8;
+    --partners-border-width: 1px;
+    --partners-font-size: 16px;
+    --partners-line-height: 23px;
 }
