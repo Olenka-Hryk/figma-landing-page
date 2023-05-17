@@ -37,4 +37,9 @@
 
     --btn-secondary-text-color: #2091F9;
     --btn-secondary-background-color: #FFFFFF;
+
+    --form-input-color-background: linear-gradient(0deg, #E8E8E8, #E8E8E8), linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    --form-input-color-border: #E8E8E8;
+    --form-input-border-radius: 39px;
+    --form-input-border-width: 1px;
 }
