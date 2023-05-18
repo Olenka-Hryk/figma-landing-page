@@ -1,0 +1,92 @@
+.testimonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.testimonials__logo {
+    padding-top: 90px;
+    padding-bottom: 45px;
+    width: auto;
+    margin: auto;
+}
+
+.testimonials__text {
+    font-family: var(--testimonials-font-text);
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--testimonials-font-size-text);
+    line-height: var(--testimonials-line-height-text);
+    letter-spacing: var(--testimonials-letter-spacing-text);
+    padding-bottom: 45px;
+    max-width: 290px;
+    margin: auto;
+}
+
+.testimonial-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.testimonial-author__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonial-author__info {
+    margin-left: 13px;
+
+}
+
+.testimonial-author__title {
+    font-family: var(--testimonials-font-text);
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--testimonials-font-size-author-title);
+    line-height: var(--testimonials-line-height-author-title);
+    letter-spacing: var(--testimonials-letter-spacing-author-title);
+    padding-bottom: 2px;
+}
+
+.testimonial-author__job-title {
+    color: var(--text-secondary-title-color);
+    font-size: var(--testimonials-font-size-job-title);
+    line-height: var(--testimonials-line-height-job-title);
+    letter-spacing: var(--testimonials-letter-spacing-job-title);
+}
+
+@media (min-width: 608px) {
+    .testimonials__text {
+        max-width: 500px;
+        font-family: var(--font-text);
+        font-size: var(--font-size-subtitle-text);
+        font-weight: var(--font-weight-text);
+        line-height: var(--line-height-subtitle);
+        letter-spacing: var(--letter-spacing);
+    }
+
+    .testimonial-author__title {
+        font-family: var(--font-text);
+        font-size: var(--testimonials-font-size-author-title-dsk);
+        line-height: var(--testimonials-line-height-author-title-dsk);
+        letter-spacing: var(--letter-spacing-accent-text);
+    }
+
+    .testimonial-author__job-title {
+        font-size: var(--testimonials-font-size-job-title-dsk);
+        line-height: var(--testimonials-line-height-job-title-dsk);
+        letter-spacing: var(--letter-spacing);
+    }
+}
+
+@media (min-width: 990px) {
+    .testimonials {
+        padding-top: 110px;
+    }
+
+    .testimonials__text {
+        max-width: 967px;
+    }
+}
