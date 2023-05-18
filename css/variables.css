@@ -64,4 +64,18 @@
     --testimonials-line-height-author-title-dsk: 23px;
     --testimonials-font-size-job-title-dsk: 15px;
     --testimonials-line-height-job-title-dsk: 28px;
+
+    --pricing-background-main-color: #252B42;
+    --pricing-item-color: #FFFFFF;
+    --pricing-item-active-color: #2091F9;
+    --pricing-item-border-radius: 10px;
+    --pricing-border-width: 1px;
+    --pricing-border-color: #DEDEDE;
+    --pricing-item-width: 335px;
+    --pricing-subtitle-font-size: 16px;
+    --pricing-subtitle-line-height: 23px;
+    --pricing-price-font-size: 74px;
+    --pricing-price-line-height: 84px;
+    --pricing-per-month-font-size: 16px;
+    --pricing-per-month-line-height: 23px;
 }

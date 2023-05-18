@@ -1,0 +1,127 @@
+.pricing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--pricing-background-main-color);
+}
+
+.pricing__subtitle {
+    padding-top: 17px;
+    padding-bottom: 90px;
+}
+
+.pricing__container {
+    text-align: center;
+}
+
+.pricing__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.price {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--pricing-item-color);
+    border-radius: var(--pricing-item-border-radius);
+    border: var(--pricing-border-width) solid var(--pricing-border-color);
+    width: var(--pricing-item-width);
+    margin: auto;
+}
+
+.price--highlight {
+    background-color: var(--pricing-item-active-color);
+    color: var(--text-primary-title-color);
+}
+
+.price__title {
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+
+.price__subtitle {
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--pricing-subtitle-font-size);
+    line-height: var(--pricing-subtitle-line-height);
+    letter-spacing: var(--letter-spacing-accent-text);
+    max-width: 148px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.price__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price__price {
+    font-size: var(--pricing-price-font-size);
+    line-height: var(--pricing-price-line-height);
+    letter-spacing: var(--letter-spacing);
+}
+
+.price__info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.price__per-month {
+    font-size: var(--pricing-per-month-font-size);
+    line-height: var(--pricing-per-month-line-height);
+}
+
+.price__features {
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.price__feature {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--text-secondary-title-color);
+    line-height: var(--font-size-subtitle-text);
+    font-size: var(--font-size-nav-menu-item-text);
+}
+
+.price__action {
+    width: 80%;
+}
+
+.price--highlight .price__title {
+    color: var(--text-primary-title-color);
+}
+
+.price--highlight .price__subtitle {
+    color: var(--text-primary-title-color);
+}
+
+.price--highlight .price__feature {
+    color: var(--text-primary-title-color);
+}
+
+.price--highlight .price__price {
+    color: var(--text-primary-title-color);
+}
+
+.price--highlight .price__currency {
+    color: var(--text-primary-title-color);
+}
+
+@media (min-width: 990px) {
+    .pricing__list {
+        flex-direction: row;
+    }
+
+    .price--highlight {
+        padding-top: 83px;
+        padding-bottom: 83px;
+    }
+}
