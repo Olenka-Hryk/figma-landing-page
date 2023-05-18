@@ -1,0 +1,128 @@
+.contact-us {
+    padding-top: 99px;
+    padding-bottom: 99px;
+    text-align: center;
+}
+
+.contact-us__title {
+    padding-top: 60px;
+}
+
+.contact-us__subtitle {
+    padding-top: 17px;
+    padding-bottom: 60px;
+}
+
+.contact-us__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us__details {
+    padding-bottom: 68px;
+    margin-left: 10px;
+    order: 2;
+}
+
+.contact-us__details-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.contact-us__details-icon {
+    width: auto;
+}
+
+.contact-us__details-title {
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--pricing-subtitle-font-size);
+    line-height: var(--pricing-subtitle-line-height);
+    letter-spacing: var(--letter-spacing-accent-text);
+}
+
+.contact-us__social {
+    padding-bottom: 65px;
+    order: 1;
+}
+
+.contact-us__form {
+    order: 3;
+    width: 335px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--contact-us-form-gap);
+}
+
+.contact-us__button {
+    width: 145px;
+    padding: 18px 38px;
+}
+
+@media (min-width: 990px) {
+    .contact-us {
+        padding-top: 152px;
+        padding-bottom: 52px;
+    }
+
+    .contact-us__information {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .contact-us__info {
+        padding-left: 30px;
+    }
+
+    .contact-us__details {
+        padding-bottom: 30px;
+        order: 2;
+    }
+
+    .contact-us__details-list {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .contact-us__details-item {
+        padding-top: 25px;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    .contact-us__details-icon {
+        justify-content: center;
+        line-height: 40px;
+    }
+
+    .contact-us__details-title {
+        text-align: center;
+    }
+
+    .contact-us__details-map {
+        order: 3;
+        width: 516px;
+        height: 323px;
+        padding-bottom: 30px;
+    }
+
+    .contact-us__social {
+        order: 4;
+        align-self: flex-start;
+        margin-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    .contact-us__form {
+        order: 1;
+        width: 445px;
+    }
+}
