@@ -18,13 +18,23 @@
       </li>
     </ul>
 
-    <a href="#" class="header__logo-link">
+    <a href="index.html#header" class="header__logo-link">
       <img class="header__logo-icon" src="image/main-logo.svg" alt="Main logo" />
     </a>
 
-    <button class="header__btn-nav-menu">
-      <img class="header__btn-icon" src="image/header-menu-button-icon.svg" alt="Main menu icon" />
-    </button>
+    <div id="burgerMenu" class="header__burger-nav-menu overlay d-lg-none">
+      <a href="javascript:void(0)" class="closeMenu" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html#header" class="header__nav-link" onclick="closeNav()">Home</a>
+        <a href="index.html#features" class="header__nav-link" onclick="closeNav()">Product</a>
+        <a href="index.html#pricing" class="header__nav-link" onclick="closeNav()">Pricing</a>
+        <a href="index.html#testimonials" class="header__nav-link" onclick="closeNav()">About</a>
+        <a href="index.html#contact-us" class="header__nav-link" onclick="closeNav()">Contact</a>
+      </div>
+    </div>
+    <span id="burgerMenu-open" class="header__burger-menu-btn d-lg-none" onclick="openNav()">
+      <img class="header__burger-menu-icon" src="image/header-menu-button-icon.svg" alt="Main menu icon" />
+    </span>
 
     <div class="social social--primary-white header__social">
       <ul class="social__list">
@@ -45,6 +55,5 @@
         </li>
       </ul>
     </div>
-
   </nav>
 </header>
