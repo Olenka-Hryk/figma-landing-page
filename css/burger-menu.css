@@ -10,7 +10,7 @@
     transition: 0.5s;
 }
 
-.overlay-content {
+.overlay-content-menu {
     position: relative;
     top: 25%;
     width: 100%;
@@ -39,6 +39,14 @@
     font-size: 60px;
 }
 
+.overlay-content-menu__social {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
 .header__burger-menu-btn {
     font-size: 30px;
     cursor: pointer
@@ -47,16 +55,4 @@
 .header__burger-menu-icon {
     width: 28px;
     height: 16px;
-}
-
-@media (min-width: 450px) {
-    /* .overlay a {
-        font-size: 20px
-    }
-
-    .overlay .closeMenu {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    } */
 }
