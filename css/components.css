@@ -38,7 +38,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .social__item {

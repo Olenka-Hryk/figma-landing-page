@@ -11,6 +11,10 @@
     scroll-behavior: smooth;
 }
 
+body.lock {
+    overflow: hidden;
+}
+
 img {
     display: block;
     width: 100%;

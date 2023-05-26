@@ -1,70 +1,44 @@
-<header class="header top-nav">
-  <nav class="header__nav container">
-    <ul class="header__nav-list">
-      <li class="header__nav-item">
-        <a href="index.html#header" class="header__nav-link">Home</a>
-      </li>
-      <li class="header__nav-item">
-        <a href="index.html#features" class="header__nav-link">Product</a>
-      </li>
-      <li class="header__nav-item">
-        <a href="index.html#pricing" class="header__nav-link">Pricing</a>
-      </li>
-      <li class="header__nav-item">
-        <a href="index.html#testimonials" class="header__nav-link">About</a>
-      </li>
-      <li class="header__nav-item">
-        <a href="index.html#contact-us" class="header__nav-link">Contact</a>
-      </li>
-    </ul>
+<header id="header" class="header top-nav">
+  <nav class="header__navigation container">
 
     <a href="index.html#header" class="header__logo-link">
       <img class="header__logo-icon" src="image/main-logo.svg" alt="Main logo" />
     </a>
 
-    <div id="burgerMenu" class="header__burger-nav-menu overlay d-lg-none">
-      <a href="javascript:void(0)" class="closeMenu" onclick="closeNav()">&times;</a>
-      <div class="overlay-content-menu">
-        <a href="index.html#header" class="header__nav-link" onclick="closeNav()">Home</a>
-        <a href="index.html#features" class="header__nav-link" onclick="closeNav()">Product</a>
-        <a href="index.html#pricing" class="header__nav-link" onclick="closeNav()">Pricing</a>
-        <a href="index.html#testimonials" class="header__nav-link" onclick="closeNav()">About</a>
-        <a href="index.html#contact-us" class="header__nav-link" onclick="closeNav()">Contact</a>
-        <div class="overlay-content-menu__social social">
-          <a href="https://twitter.com/figma" class="social__link">
-            <img class="social__icon" src="image/social-icon/social-icon-white-twitter.svg" alt="Twitter Logo" />
-          </a>
-          <a href="https://www.facebook.com/figmadesign/?locale=ru_RU" class="social__link">
-            <img class="social__icon" src="image/social-icon/social-icon-white-facebook.svg" alt="Facebook Logo" />
-          </a>
-          <a href="https://www.linkedin.com/company/figma/" class="social__link">
-            <img class="social__icon" src="image/social-icon/social-icon-white-linkedin.svg" alt="Linkedin Logo" />
-          </a>
-        </div>
+    <div class="header__navigation-wrapper">
+      <div class="header__navigation-links">
+        <a href="index.html#header" class="header__navigation__link">Home</a>
+        <a href="index.html#features" class="header__navigation__link">Product</a>
+        <a href="index.html#pricing" class="header__navigation__link">Pricing</a>
+        <a href="index.html#testimonials" class="header__navigation__link">About</a>
+        <a href="index.html#contact-us" class="header__navigation__link">Contact</a>
+      </div>
+
+      <div class="header_navigation-social social social__list social--primary-white">
+        <a href="https://twitter.com/figma" class="social__link">
+          <img class="social__icon" src="image/social-icon/social-icon-white-twitter.svg" alt="Twitter Logo" />
+        </a>
+        <a href="https://www.facebook.com/figmadesign/?locale=ru_RU" class="social__link">
+          <img class="social__icon" src="image/social-icon/social-icon-white-facebook.svg" alt="Facebook Logo" />
+        </a>
+        <a href="https://www.linkedin.com/company/figma/" class="social__link">
+          <img class="social__icon" src="image/social-icon/social-icon-white-linkedin.svg" alt="Linkedin Logo" />
+        </a>
       </div>
     </div>
-    <span id="burgerMenu-open" class="header__burger-menu-btn d-lg-none" onclick="openNav()">
-      <img class="header__burger-menu-icon" src="image/header-menu-button-icon.svg" alt="Main menu icon" />
-    </span>
 
-    <div class="social social--primary-white header__social">
-      <ul class="social__list">
-        <li class="social__item">
-          <a href="https://twitter.com/figma" class="social__link">
-            <img class="social__icon" src="image/social-icon/social-icon-white-twitter.svg" alt="Twitter Logo" />
-          </a>
-        </li>
-        <li class="social__item">
-          <a href="https://www.facebook.com/figmadesign/?locale=ru_RU" class="social__link">
-            <img class="social__icon" src="image/social-icon/social-icon-white-facebook.svg" alt="Facebook Logo" />
-          </a>
-        </li>
-        <li class="social__item">
-          <a href="https://www.linkedin.com/company/figma/" class="social__link">
-            <img class="social__icon" src="image/social-icon/social-icon-white-linkedin.svg" alt="Linkedin Logo" />
-          </a>
-        </li>
-      </ul>
+    <div class="social social__list social--primary-white header__social">
+      <a href="https://twitter.com/figma" class="social__link">
+        <img class="social__icon" src="image/social-icon/social-icon-white-twitter.svg" alt="Twitter Logo" />
+      </a>
+      <a href="https://www.facebook.com/figmadesign/?locale=ru_RU" class="social__link">
+        <img class="social__icon" src="image/social-icon/social-icon-white-facebook.svg" alt="Facebook Logo" />
+      </a>
+      <a href="https://www.linkedin.com/company/figma/" class="social__link">
+        <img class="social__icon" src="image/social-icon/social-icon-white-linkedin.svg" alt="Linkedin Logo" />
+      </a>
     </div>
+
+    <div class="header__navigation-hamburger"><span></span></div>
   </nav>
 </header>
