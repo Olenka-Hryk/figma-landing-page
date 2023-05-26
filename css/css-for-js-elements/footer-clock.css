@@ -1,0 +1,52 @@
+.footer__clock {
+    margin-top: 30px;
+    height: 5vh;
+    font-size: 5vh;
+    line-height: 5.4vh;
+    font-family: var(--font-text);
+    color: var(--text-primary-title-color);
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer__clock::before,
+.footer__clock::after {
+    content: '';
+    width: 7ch;
+    height: 3vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.footer__clock::after {
+    bottom: 0;
+}
+
+.footer__clock>div {
+    display: flex;
+}
+
+.footer__clock-tick {
+    line-height: 5.5vh;
+}
+
+.tick-hidden {
+    opacity: 0;
+}
+
+.move {
+    animation: move linear 1s infinite;
+    color: var(--btn-primary-background-color);
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0vh);
+    }
+
+    to {
+        transform: translateY(-20vh);
+    }
+}
