@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/graphik');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 
 :root {
     --font-text: 'Graphik';
@@ -46,6 +47,20 @@
     --form-input-color-border: #E8E8E8;
     --form-input-border-radius: 39px;
     --form-input-border-width: 1px;
+
+    --templates-background-color: #C7B9FF;
+    --templates-font-family-accent-text: 'DM Serif Display', serif;
+    --templates-font-size-text: 52px;
+    --templates-changeable-text-color-1: #A259FF;
+    --templates-changeable-text-color-2: #C7B9FF;
+    --templates-changeable-text-color-3: #5551FF;
+    --templates-changeable-text-color-4: #699BF7;
+    --templates-changeable-text-color-5: #FF8577;
+    --templates-changeable-text-color-6: #F24E1E;
+    --templates-changeable-text-color-7: #FFC700;
+    --templates-changeable-text-color-8: #0FA958;
+    --templates-changeable-text-color-9: #FFFFFF;
+    --templates-changeable-text-color-10: #000000;
 
     --partners-border-color: #D8D8D8;
     --partners-border-width: 1px;
