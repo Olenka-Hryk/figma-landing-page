@@ -6,7 +6,7 @@
     font-family: var(--font-text);
     color: var(--text-primary-title-color);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
     overflow: hidden;
 }
@@ -39,6 +39,12 @@
 .move {
     animation: move linear 1s infinite;
     color: var(--btn-primary-background-color);
+}
+
+@media (min-width: 990px) {
+    .footer__clock {
+    justify-content: flex-end;
+    } 
 }
 
 @keyframes move {
