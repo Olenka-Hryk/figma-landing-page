@@ -111,3 +111,50 @@
     box-shadow: var(--contact-us-form-box-shadow);
     border: var(--contact-us-form-border-width) solid var(--contact-us-form-border-color);
 }
+
+
+.carousel-btn {
+    position: absolute;
+    cursor: pointer;
+    opacity: 40%;
+    top: 45%;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-btn:hover {
+    opacity: 100%;
+}
+
+.carousel-btn--prev {
+    left: 1%;
+}
+
+.carousel-btn--next {
+    right: 1%;
+}
+
+.carousel-indicators {
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: 0.6s ease;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: var(--text-secondary-subtitle-color);
+    opacity: 40%;
+    display: block;
+    font-size: 35px;
+}

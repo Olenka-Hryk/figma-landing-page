@@ -1,0 +1,40 @@
+.figjam__carousel {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 350px;
+}
+
+.figjam__carousel-slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.figjam__carousel-slide-img {
+    height: 100%;
+}
+
+.figjam__carousel-slide-title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.figjam__carousel-fade {
+    height: 100%;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
