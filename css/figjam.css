@@ -1,0 +1,48 @@
+.figjam {
+    background-color: var(--figjam-background-color);
+}
+
+.figjam__content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+}
+
+.figjam__content-title {
+    padding-bottom: 50px;
+}
+
+
+@media (min-width: 550px) {
+    .figjam__content {
+        background-image: url("../image/figjam/figjam-backgroud-image.svg");
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-top: 90px;
+        padding-bottom: 200px;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 660px) {
+    .figjam__content {
+        padding-left: 70px;
+    }
+
+    .figjam__content-title {
+        font-size: var(--figjam-size-title-text);
+    }
+}
+
+@media (min-width: 990px) {
+    .figjam__content {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-left: 100px;
+    }
+
+    .figjam__content-title {
+        font-size: var(--font-size-main-title-text);
+        line-height: var(--figjam-text-line-height);
+    }
+}
