@@ -43,6 +43,6 @@ function changeColorAndText() {
 
 setInterval(changeColorAndText, 1000);
 changeColorAndText();
-sizeMediaScreen.addEventListener(changeColorAndText);
+sizeMediaScreen.addListener(changeColorAndText);
 
 // title.classList.add('some-class');

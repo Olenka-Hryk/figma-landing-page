@@ -1,0 +1,57 @@
+[
+    {
+       "id":"1",
+       "name":"Slack brand",
+       "image":"image/brands/brands-slack-logo.svg"
+    },
+    {
+       "id":"2",
+       "name":"DropBox brand",
+       "image":"image/brands/brands-dropbox-logo.svg"
+    },
+    {
+       "id":"3",
+       "name":"GitHub brand",
+       "image":"image/brands/brands-github-logo.svg"
+    },
+    {
+       "id":"4",
+       "name":"Twitter brand",
+       "image":"image/brands/brands-twitter-logo.svg"
+    },
+    {
+       "id":"5",
+       "name":"Zoom brand",
+       "image":"image/brands/brands-zoom-logo.svg"
+    },
+    {
+       "id":"6",
+       "name":"Walgreens brand",
+       "image":"image/brands/brands-walgreens-logo.svg"
+    },
+    {
+       "id":"7",
+       "name":"New York Times brand",
+       "image":"image/brands/brands-new-york-times-logo.svg"
+    },
+    {
+       "id":"8",
+       "name":"Square brand",
+       "image":"image/brands/brands-square-logo.svg"
+    },
+    {
+       "id":"9",
+       "name":"Microsoft brand",
+       "image":"image/brands/brands-microsoft-logo.svg"
+    },
+    {
+       "id":"10",
+       "name":"Deliveroo brand",
+       "image":"image/brands/brands-deliveroo-logo.svg"
+    },
+    {
+       "id":"11",
+       "name":"ClassPass brand",
+       "image":"image/brands/brands-classpass-logo.svg"
+    }
+ ]

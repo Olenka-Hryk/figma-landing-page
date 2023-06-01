@@ -116,6 +116,8 @@
 .carousel-btn {
     position: absolute;
     cursor: pointer;
+    background: transparent;
+    border: none;
     opacity: 40%;
     top: 45%;
     width: 40px;

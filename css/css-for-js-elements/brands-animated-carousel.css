@@ -1,0 +1,27 @@
+.brands__content-animated-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.brands__animated-carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.brands__animated-carousel-slide-img {
+    max-height: 300px;
+}
+
+.brands__content-animated-carousel .brands__animated-carousel-slide {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 990px) {
+    .brands__animated-carousel-slide-img {
+        max-height: 500px;
+    }
+}
