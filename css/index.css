@@ -4,6 +4,7 @@
 @import url(components.css);
 
 @import url(css-partials/header.css);
+@import url(css-for-js-elements/weather-widget.css);
 @import url(css-for-js-elements/header-hamburger-menu.css);
 @import url(css-partials/hero.css);
 @import url(css-partials/features.css);

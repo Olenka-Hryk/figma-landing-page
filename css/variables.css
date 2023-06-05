@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/graphik');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 
 :root {
@@ -48,8 +49,10 @@
     --form-input-border-radius: 39px;
     --form-input-border-width: 1px;
     --form-input-validation-status-font-size-text: 12px;
-    --form-input-validation-text-color: #EF4445; 
-    --form-input-validation-success-color: #11B981; 
+    --form-input-validation-text-color: #EF4445;
+    --form-input-validation-success-color: #11B981;
+
+    --weather-widget-background-color: rgba(0, 0, 0, 0.3);
 
     --templates-background-color: #C7B9FF;
     --templates-font-family-accent-text: 'DM Serif Display', serif;

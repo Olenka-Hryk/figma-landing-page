@@ -1,6 +1,7 @@
 document.addEventListener("partialsLoaded", () => {
     import('./header-hamburger-menu.js');
-    import('./subscibe-form-formspree.js');
+    import('./weather-widget-openweather-api.js');
+    import('./subscribe-form-formspree.js');
     import('./templates-changeable-color-and-text.js');
     import('./templates-catalog-list.js');
     import('./figjam-carousel.js');
