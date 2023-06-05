@@ -9,22 +9,22 @@ const TOAST_CONFIG = {
     success: {
         status: "Well done!",
         className: "toast--success",
-        icon: "/image/ui-icon/toast-success.png"
+        icon: "image/ui-icon/toast-success.png"
     },
     info: {
         status: "Heads up!",
         className: "toast--info",
-        icon: "/image/ui-icon/toast-info.png"
+        icon: "image/ui-icon/toast-info.png"
     },
     warning: {
         status: "Warning!",
         className: "toast--warning",
-        icon: "/image/ui-icon/toast-warning.png"
+        icon: "image/ui-icon/toast-warning.png"
     },
     error: {
         status: "Oh snap!",
         className: "toast--error",
-        icon: "/image/ui-icon/toast-error.png"
+        icon: "image/ui-icon/toast-error.png"
     }
 }
 

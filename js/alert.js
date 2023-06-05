@@ -7,19 +7,19 @@ const closeAlert = document.querySelector(".alert-close-btn");
 const ALERT_CONFIG = {
     success: {
         className: "alert--success",
-        icon: "/image/ui-icon/alert-success.svg"
+        icon: "image/ui-icon/alert-success.svg"
     },
     info: {
         className: "alert--info",
-        icon: "/image/ui-icon/alert-info.svg"
+        icon: "image/ui-icon/alert-info.svg"
     },
     warning: {
         className: "alert--warning",
-        icon: "/image/ui-icon/alert-warning.png"
+        icon: "image/ui-icon/alert-warning.png"
     },
     error: {
         className: "alert--error",
-        icon: "/image/ui-icon/alert-error.svg"
+        icon: "image/ui-icon/alert-error.svg"
     }
 }
 
