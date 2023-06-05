@@ -13,12 +13,27 @@
 <body>
   <header id="header" data-include="partials/header.partial.html"></header>
   <main>
+
+    <div id="toast" class="toast">
+      <img id="toast-icon" src="image/ui-icon/toast-info.png" class="toast-icon"></img>
+      <div id="toast-content" class="toast-content">
+        <strong id="toast-status"></strong>
+        <div id="toast-message"></div>
+      </div>
+    </div>
+
+    <div id="alert" class="alert">
+      <img id="alert-icon" src="image/ui-icon/alert-info.svg" class="alert-icon"></img>
+      <div id="alert-content" class="alert-content text"></div>
+      <span class="alert-close-btn">&times;</span>
+      <div id="alert-progress" class="alert-progress"></div>
+    </div>
+
     <div data-include="partials/hero.partial.html"></div>
     <section id="features" data-include="partials/features.partial.html"></section>
     <section id="promotion" data-include="partials/promotion.partial.html"></section>
     <section id="subscribe" data-include="partials/subscribe.partial.html"></section>
     <section id="templates" data-include="partials/templates.partial.html"></section>
-    <section id="templates-catalog" data-include="partials/templates-catalog.partial.html"></section>
     <section id="figjam" data-include="partials/figjam.partial.html"></section>
     <section id="partners" data-include="partials/partners.partial.html"></section>
     <section id="brands" data-include="partials/brands.partial.html"></section>
@@ -29,6 +44,8 @@
   <footer id="footer" data-include="partials/footer.partial.html"></footer>
   <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
   <script type="module" src="js/index.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/alert.js"></script>
 </body>
 
 </html>

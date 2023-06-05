@@ -1,0 +1,40 @@
+.form-elm {
+    font-family: var(--font-text);
+    color: var(--form-input-text-color);
+    font-size: var(--form-input-font-size-text);
+    line-height: var(--form-input-line-height);
+    letter-spacing: var(--letter-spacing-accent-text);
+    background: var(--form-input-color-background);
+    border: var(--form-input-border-width) solid var(--form-input-color-border);
+}
+
+.form-elm--input {
+    width: 100%;
+    left: 0px;
+    top: 24px;
+    padding: 19px 35px;
+    border-radius: var(--form-input-border-radius);
+}
+
+.form-elm--textarea {
+    resize: none;
+    left: 0px;
+    top: 24px;
+    padding: 23px 20px;
+}
+
+.form-card {
+    border-radius: var(--contact-us-form-border-radius);
+    padding: var(--contact-us-form-padding);
+    gap: var(--contact-us-form-gap);
+    box-shadow: var(--contact-us-form-box-shadow);
+    border: var(--contact-us-form-border-width) solid var(--contact-us-form-border-color);
+}
+
+.form-elm.incorrect {
+    border: var(--form-input-border-width) solid var(--form-input-validation-text-color);
+}
+
+.form-elm.correct {
+    border: var(--form-input-border-width) solid var(--form-input-validation-success-color);
+}

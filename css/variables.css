@@ -47,6 +47,9 @@
     --form-input-color-border: #E8E8E8;
     --form-input-border-radius: 39px;
     --form-input-border-width: 1px;
+    --form-input-validation-status-font-size-text: 12px;
+    --form-input-validation-text-color: #EF4445; 
+    --form-input-validation-success-color: #11B981; 
 
     --templates-background-color: #C7B9FF;
     --templates-font-family-accent-text: 'DM Serif Display', serif;

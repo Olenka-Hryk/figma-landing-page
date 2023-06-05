@@ -4,8 +4,8 @@
 }
 
 .templates-catalog__list-content {
-    column-gap: 20px;
-    row-gap: 30px;
+    column-gap: 40px;
+    row-gap: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

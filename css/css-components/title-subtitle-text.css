@@ -1,0 +1,35 @@
+.title {
+    color: var(--text-secondary-title-color);
+    font-size: var(--font-size-section-title-text);
+    font-weight: var(--font-weight-text);
+    line-height: var(--line-height-title);
+}
+
+.title--wht {
+    color: var(--text-primary-title-color);
+    font-size: var(--font-size-section-title-text);
+}
+
+.subtitle {
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--font-size-subtitle-text);
+    line-height: var(--line-height-subtitle);
+}
+
+.subtitle--wht {
+    color: var(--text-primary-subtitle-color);
+}
+
+.text-accent {
+    color: var(--text-secondary-title-color);
+    font-size: var(--font-size-accent-text);
+    font-weight: var(--font-weight-accent-text);
+    line-height: var(--line-height-accent-text);
+    letter-spacing: var(--letter-spacing-accent-text);
+}
+
+.text {
+    color: var(--text-secondary-subtitle-color);
+    font-size: var(--font-size-text);
+    line-height: var(--line-height-text);
+}

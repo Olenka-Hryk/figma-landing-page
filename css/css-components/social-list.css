@@ -1,0 +1,10 @@
+.social__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.social__item {
+    padding: 0 1rem;
+}
