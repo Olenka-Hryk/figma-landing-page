@@ -15,7 +15,7 @@
 
 @media (min-width: 550px) {
     .figjam__content {
-        background-image: url("/image/figjam/figjam-backgroud-image.svg");
+        background-image: url("image/figjam/figjam-backgroud-image.svg");
         background-position: right;
         background-repeat: no-repeat;
         padding-top: 90px;

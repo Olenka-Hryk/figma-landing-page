@@ -169,7 +169,7 @@
     }
 
     .weather-widget__icon {
-        content: url("/image/weather-widget-openweather-icon/weather-widget-desktop.png");
+        content: url("image/weather-widget-openweather-icon/weather-widget-desktop.png");
     }
 
     .weather-widget__container {
