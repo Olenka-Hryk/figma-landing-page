@@ -6,5 +6,6 @@ document.addEventListener("partialsLoaded", () => {
     import('./templates-catalog-list.js');
     import('./figjam-carousel.js');
     import('./brands-list.js');
+    import('./contact-us-users-date.js');
     import('./footer-clock.js');
   });

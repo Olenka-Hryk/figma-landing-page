@@ -38,7 +38,6 @@
 
 .move {
     animation: move linear 1s infinite;
-    color: var(--btn-primary-background-color);
 }
 
 @media (min-width: 990px) {

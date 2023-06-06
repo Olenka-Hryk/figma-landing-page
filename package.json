@@ -1,0 +1,25 @@
+{
+  "name": "hw-softserve-academy",
+  "version": "1.0.0",
+  "description": "This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olenka-Hryk/hw-softserve-academy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olenka-Hryk/hw-softserve-academy/issues"
+  },
+  "homepage": "https://github.com/Olenka-Hryk/hw-softserve-academy#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,5 @@
+{"name":"Alex","email":"alex@gmail.com","message":"Hello World"}
+{"name":"Olenka","email":"olena.andrushchakevych@gmail.com","message":"Hello! Contact me, please!"}
+{"name":"Name","email":"Email","message":"Message"}
+{"name":"Olenka","email":"olena.hryk@gmail.com","message":"hello! hello!"}
+{"name":"test1","email":"test2","message":"test3"}

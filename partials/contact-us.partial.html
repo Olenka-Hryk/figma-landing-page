@@ -54,11 +54,11 @@
         </ul>
       </div>
     </div>
-    <form class="form form-card contact-us__form" action="" method="post">
+    <form class="form form-card contact-us__form" action="http://localhost:3030/api/contact-us" method="post">
       <h3 class="form__title text-accent">Contact Us</h3>
-      <input class="form-elm form-elm--input contact-us__input" type="text" placeholder="Your Name" name="name" />
-      <input class="form-elm form-elm--input contact-us__input" type="text" placeholder="Your Email" name="email" />
-      <textarea class="form-elm form-elm--textarea contact-us__textarea" name="" id="" cols="10" rows="5"
+      <input id="contact-us__input-name" class="form-elm form-elm--input contact-us__input" type="text" placeholder="Your Name" name="name" />
+      <input id="contact-us__input-email" class="form-elm form-elm--input contact-us__input" type="text" placeholder="Your Email" name="email" />
+      <textarea id="contact-us__input-message" class="form-elm form-elm--textarea contact-us__textarea" name="message" cols="10" rows="5"
         placeholder="Your Message"></textarea>
       <button class="btn btn--primary contact-us__button" type="submit">
         Send
